@@ -1,0 +1,137 @@
+* { 
+    font-family: Roboto sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+header{    
+    background-color: #54e2a8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-right: 50px;
+    margin: 10px 10px 0px 10px;    
+}
+
+header img{
+    width: 19%;
+    margin-left: 20px;
+}
+
+header nav ul {    
+    display: flex;
+    gap: 17px;
+    font-size: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #171818;
+    padding: 7px 10px;
+    margin: 0 5px;
+    transition: all .155s ease;
+    border-radius: 5px;        
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;    
+    
+}
+
+.menuHeader:hover{
+    color: #faf7f7;
+    font-weight: bold;
+    background-color: rgb(2, 65, 7);    
+}
+
+body{
+    background-image: url(/img/Recife_-_In.jpg);
+}
+
+section{
+    margin-left: 300px;
+    margin-right: 300px;    
+    padding-bottom: 8px;
+    background-color: rgb(204, 200, 200);  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;    
+}
+
+h2{
+    margin-left: 45px;  
+}
+
+div{
+    margin-left: 45px;    
+}
+
+.imagens{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+section ul li{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section ol li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    font-size:x-large;
+    font-style:oblique;
+    color: #080e0b;
+}
+
+footer{    
+    background-color: #54e2a8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-right: 50px;
+    margin: 0px 10px 0px 10px;    
+}
+
+footer img{
+    width: 19%;
+    margin-left: 20px;
+}
+
+footer nav ul {    
+    display: flex;
+    justify-content: space-between;    
+    gap: 17px;
+    /*font-size: 120px;*/
+    font-size: 12px;
+    font-weight: 700;
+    color: #171818;
+    padding: 7px 10px;
+    margin: 0 5px;
+    transition: all .155s ease;
+    border-radius: 5px;        
+}
+
+footer nav a {
+    text-decoration: none;
+    color: black;    
+    
+}
+
+.menuFooter:hover{
+    color: #faf7f7;
+    font-weight: bold;
+    background-color: rgb(2, 65, 7);    
+}
